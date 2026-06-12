@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-export default function Home() {
+export default function Contact() {
   return (
     <main>
-      <h1>Welcome to My App</h1>
+      <h1>Contact Page</h1>
 
       <Image
         src="/images/download.jpg"
@@ -11,8 +11,6 @@ export default function Home() {
         width={400}
         height={300}
       />
-
-      <p>This is my dog image.</p>
     </main>
   );
 }
